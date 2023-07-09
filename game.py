@@ -17,8 +17,6 @@ screenwin = pygame.display.set_mode((screen_x,screen_y))
 # Images
 bgstart = pygame.image.load("bgimg1.jpg")
 bgstart = pygame.transform.scale(bgstart,(screen_x,screen_y)).convert_alpha()
-snk = pygame.image.load("snkhead.jpg")
-snk = pygame.transform.scale(snk,(screen_x,screen_y)).convert_alpha()
 snkicon = pygame.image.load("snake-png-20.jpg")
 snkicon = pygame.transform.scale(snkicon,(300,380)).convert_alpha()
 bgend = pygame.image.load("bgimg2.jpg")
